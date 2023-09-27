@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a new variable "name" and assign it the string 'Dane'
+// We create a conditional that checks if "name" is 'Mary'.
+// If "name" is 'Mary', then we log in the console 'Hi, Mary!'
+// If "name" is not 'Mary' (else), we log in the console 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a new variable "secret" and leave it undefined.
+// We declare a new variable "code" and assign it the number '123'.
+// We create a conditional that check if "code" is equal to '123'.
+// If "code" is equal to '123', then "secret" is assigned the string 'super', and "code" is multiplied by 2.
+// If "code" is greater than 250, then "secret" is assigned the string 'duper'.
+// We log into the console value of "secret" which in this case is 'super'.
 
 //CODE
 /*
@@ -70,10 +72,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a new variable "isStudent" with the boolean value 'true'.
+// We declare a new variable "age" with the number '34'.
+// We declare a new variable "zip" with the number '55407'
+// We create a conditional that checks if "isStudent" is 'true' AND if "zip" is greater than '80000'
+// If both conditions are met, we log into the console 'You're a student on the West Coast!'
+// If both conditions are not met, we check a new condition:
+// If "isStudent" is 'false' OR "age" is less than 30, we log into the console 'What are your hobbies?'
+// If neither condition is met, we check a new condition:
+// If "isStudent" equals 'true', we log into the console 'Welcome to Prime!'
+// If this condition is not met, we log into the console 'How about the weather?'
+// With the given values, our console would read 'What are your hobbies?'
 
 //CODE
 /*
@@ -130,23 +139,30 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - the values of colorOne and colorTwo are swapped.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorTwo needs to also be changed to 'purple'. under the new colorOne value should read: "colorTwo = 'purple';".
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
+// FIX - time is set to a constant, but should be declared as a variable. Rewrite to: "let time = 4;".
 let temp = 40;
 const time = 4;
 
+// FIX - instructions state both conditions must be true. There should be a && where it reads ||.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -157,9 +173,12 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+// FIX - both declarations should be variables, not constants. Rewrite to: "let minAge = 21;".
 let age = 21;
 const minAge = 21;
 
+// FIX - the code under the if and else statements need to be swapped.
 if(minAge <= age) {
   console.log('no entry');
 } else {
